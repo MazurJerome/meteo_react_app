@@ -1,0 +1,30 @@
+.search {
+	width: 82%;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #97cef6;
+}
+.date {
+	width: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.search_bar {
+	width: 40%;
+}
+.link_icone {
+	width: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.alert {
+	width: 40%;
+}
+.profil {
+	width: 40%;
+}
