@@ -2,6 +2,7 @@ import "../style/Search.css";
 import { NavLink } from "react-router-dom";
 import icone_alert from "../images/icone_alert.svg";
 import icone_user from "../images/icone_user.svg";
+import icone_search from "../images/glass_search.svg";
 
 function Search() {
 	let date = new Date();
@@ -58,8 +59,14 @@ function Search() {
 		<section className="search">
 			<div className="date">{date2}</div>
 			<div className="search_bar">
-				<button>Rechercher</button>
-				<input type="text" placeholder="Rechercher" />
+				<button className="search_button">
+					<img className="icone_button" src={icone_search} alt="" />
+				</button>
+				<input
+					className="search_input"
+					type="text"
+					placeholder="Rechercher une position ici"
+				/>
 			</div>
 			<nav className="link_icone">
 				<NavLink className="searchbar_alert" to="/" exact="true">
