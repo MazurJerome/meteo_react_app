@@ -1,6 +1,8 @@
 .menu_Body {
 	display: flex;
 	flex-direction: row;
+	width: 100%;
+	height: 100%;
 }
 body {
 	width: 100%;
@@ -14,6 +16,11 @@ body {
 }
 .body_widget {
 	width: 40%;
+	display: flex;
+	flex-direction: column;
+}
+.weather_overwiew {
+	width: 50%;
 	display: flex;
 	flex-direction: column;
 }

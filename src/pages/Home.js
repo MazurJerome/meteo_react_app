@@ -1,6 +1,8 @@
 import Header from "../components/Header";
 import Search from "../components/Search";
 import Widget from "../components/Widget";
+import Overwiew from "../components/Overwiew";
+import Prediction from "../components/Prediction";
 import "../style/menu.css";
 
 function Home() {
@@ -11,15 +13,15 @@ function Home() {
 				<body>
 					<Search />
 					<div className="body_top">
-						<div className="widget">
+						<div className="body_widget">
 							<Widget />
 						</div>
-						<div className="weather_overwiew"></div>
+						<div className="weather_overwiew">
+							<Overwiew />
+						</div>
 					</div>
-					<div className="weather_prediction"></div>
-					<div className="body_bottom">
-						<div className="average_weekly_temperature"></div>
-						<div className="average_daily_rainfall"></div>
+					<div className="weather_prediction">
+						<Prediction />
 					</div>
 				</body>
 			</div>
