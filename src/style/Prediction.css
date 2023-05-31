@@ -1,3 +1,78 @@
 h3 {
+	margin: 10px;
+}
+.Prediction_dayBday {
+	display: flex;
+	flex-direction: row;
+	font-size: 15px;
+}
+.Prediction_dayBday_day-1 {
+	width: 8%;
+	height: 8%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid black;
+	padding: 10px;
+	margin: 20px;
+}
+.Prediction_dayBday_day0 {
+	width: 8%;
+	height: 8%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid black;
+	padding: 10px;
+	margin: 20px;
+}
+.Prediction_dayBday_day1 {
+	width: 8%;
+	height: 8%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid black;
+	padding: 10px;
+	margin: 20px;
+}
+.Prediction_dayBday_day2 {
+	width: 8%;
+	height: 8%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid black;
+	padding: 10px;
+	margin: 20px;
+}
+.Prediction_dayBday_day3 {
+	width: 8%;
+	height: 8%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid black;
+	padding: 10px;
+	margin: 20px;
+}
+.Prediction_dayBday_day4 {
+	width: 8%;
+	height: 8%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid black;
+	padding: 10px;
+	margin: 20px;
+}
+.Prediction_dayBday_day5 {
+	width: 8%;
+	height: 8%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid black;
+	padding: 10px;
 	margin: 20px;
 }
