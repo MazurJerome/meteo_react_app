@@ -2,7 +2,7 @@ import Header from "../components/Header";
 
 function Settings() {
 	return (
-		<div>
+		<div className="menu_Body">
 			<Header />
 			<body>
 				<div className="settings">

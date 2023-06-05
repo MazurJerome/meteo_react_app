@@ -58,16 +58,16 @@ function Search() {
 	return (
 		<section className="search">
 			<div className="date">{date2}</div>
-			<div className="search_bar">
-				<button className="search_button">
-					<img className="icone_button" src={icone_search} alt="" />
-				</button>
+			<form className="search_bar">
+				<label for="search">Search</label>
 				<input
 					className="search_input"
-					type="text"
-					placeholder="Rechercher une position ici"
-				/>
-			</div>
+					type="search"
+					pattern=".*\S.*"
+					required
+				></input>
+				<span className="caret"></span>
+			</form>
 			<nav className="link_icone">
 				<NavLink className="searchbar_alert" to="/" exact="true">
 					<img className="alert" src={icone_alert} alt="" />
