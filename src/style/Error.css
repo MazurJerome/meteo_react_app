@@ -5,11 +5,11 @@
 	align-items: center;
 }
 .error {
-	margin: 66px;
+	margin: 30px;
 	font-family: "Montserrat";
 	font-style: normal;
 	font-weight: 700;
-	font-size: 288px;
+	font-size: 200px;
 	display: flex;
 	align-items: center;
 	text-align: center;
@@ -17,7 +17,7 @@
 }
 .error-message {
 	width: 80%;
-	margin-bottom: 80px;
+	margin-bottom: 70px;
 	font-family: "Montserrat";
 	font-style: normal;
 	font-weight: 500;
@@ -27,7 +27,7 @@
 	color: #ff6060;
 }
 .error-home {
-	margin: 80px 0;
+	margin: 20px 0;
 
 	font-family: "Montserrat";
 	font-style: normal;

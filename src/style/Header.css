@@ -6,6 +6,12 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	border-right: 2px solid #fafafa;
+	background: linear-gradient(
+		180deg,
+		rgba(3, 68, 51, 0.15) 0%,
+		rgba(9, 115, 121, 0.15) 9%,
+		rgba(0, 160, 255, 0.15) 67%
+	);
 }
 h2 {
 	font-size: 18px;
