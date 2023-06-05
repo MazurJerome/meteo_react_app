@@ -11,27 +11,22 @@ function Header() {
 				<div className="Menu">
 					<nav>
 						<i></i>
-						<NavLink
-							className="navbar_Dashbord"
-							to="/Composants/:id"
-							exact="true"
-						>
+						<NavLink className="navbar_Dashbord" to="/" exact="true">
 							Dashbord
 						</NavLink>
 					</nav>
 					<nav>
-						<NavLink className="navbar_Map" to="/" exact="true">
+						<NavLink className="navbar_Map" to="/Position" exact="true">
 							Map
 						</NavLink>
 					</nav>
 					<nav>
-						<NavLink className="navbar_Saved_Location" to="/" exact="true">
+						<NavLink
+							className="navbar_Saved_Location"
+							to="/Position"
+							exact="true"
+						>
 							Positions sauvegardées
-						</NavLink>
-					</nav>
-					<nav>
-						<NavLink className="navbar_Calendar" to="/" exact="true">
-							Calendrier
 						</NavLink>
 					</nav>
 				</div>
@@ -40,12 +35,12 @@ function Header() {
 				<div className="Menu">
 					<h2>System</h2>
 					<nav>
-						<NavLink className="navbar_Setteing" to="/" exact="true">
+						<NavLink className="navbar_Setteing" to="/Settings" exact="true">
 							Setting
 						</NavLink>
 					</nav>
 					<nav>
-						<NavLink className="navbar_Logout_account" to="/" exact="true">
+						<NavLink className="navbar_Logout_account" to="/Login" exact="true">
 							Logout account
 						</NavLink>
 					</nav>
