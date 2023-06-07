@@ -1,45 +1,52 @@
 h3 {
-	margin: 10px;
+  margin: 10px;
 }
+
 .Prediction_cards {
-	display: flex;
-	flex-direction: row;
-	font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
 }
+
 .Prediction_dayBday {
-	width: 8%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 10px;
-	margin: 15px;
+  width: 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin: 15px;
 }
+
 .card {
-	width: 90px;
-	height: 90px;
-	position: absolute;
-	border-radius: 50%;
-	background-color: #fafafa;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  border-radius: 50%;
+  background-color: #e6e6fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
 .card:hover {
-	background-color: #e4eefc;
+  background-color: #c8a2c8;
 }
+
 .wheather_icon {
-	position: relative;
-	top: 25px;
-	width: 50%;
-	opacity: 0.2;
+  position: relative;
+  top: 25px;
+  width: 50%;
+  opacity: 0.2;
 }
+
 .day {
-	position: relative;
-	top: -45px;
-	font-size: 20px;
-	font-weight: bold;
+  position: relative;
+  top: -45px;
+  font-size: 20px;
+  font-weight: bold;
 }
+
 .temp {
-	position: relative;
-	top: -55px;
-}
+  position: relative;
+  top: -55px;
+}/*# sourceMappingURL=Prediction.css.map */

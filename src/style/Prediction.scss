@@ -1,0 +1,47 @@
+@import "./Utils/variables.scss";
+
+h3 {
+	margin: 10px;
+}
+.Prediction_cards {
+	display: flex;
+	flex-direction: row;
+	font-size: 15px;
+}
+.Prediction_dayBday {
+	width: 8%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+	margin: 15px;
+}
+.card {
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	border-radius: 50%;
+	background-color: $ColorFond;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.card:hover {
+	background-color: $ColorPrimary;
+}
+.wheather_icon {
+	position: relative;
+	top: 25px;
+	width: 50%;
+	opacity: 0.2;
+}
+.day {
+	position: relative;
+	top: -45px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.temp {
+	position: relative;
+	top: -55px;
+}
