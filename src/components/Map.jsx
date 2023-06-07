@@ -1,15 +1,27 @@
 import React from "react";
-import { GoogleMap, LoadScript } from "@react-google-maps/api";
+import { GoogleMap, Marker } from "@react-google-maps/api";
 
-const MapComponent = ({ position, onMapClick }) => (
-	<LoadScript googleMapsApiKey="AIzaSyCUx-2IBM3iqk3aXMAZ1TU_Xo92vHYzn8Y">
+const Map = () => {
+	const [position, setPosition] = React.useState({
+		lat: 48.8566,
+		lng: 2.3522,
+	});
+
+	const handleMapClick = React.useCallback((event) => {
+		setPosition({ lat: event.latLng.lat(), lng: event.latLng.lng() });
+	}, []);
+
+	return (
 		<GoogleMap
-			mapContainerStyle={{ width: "100%", height: "400px" }}
+			mapContainerStyle={{ width: "100%" }}
 			center={position}
 			zoom={8}
-			onClick={onMapClick}
-		></GoogleMap>
-	</LoadScript>
-);
+			onClick={handleMapClick}
+		>
+			{/* Le marqueur sera placé à la position où l'utilisateur a cliqué */}
+			<Marker position={position} />
+		</GoogleMap>
+	);
+};
 
-export default MapComponent;
+export default Map;
