@@ -14,7 +14,7 @@ const App = () => {
 	return (
 		<div className="position">
 			<Header />
-			<Map position={position} onMapClick={handleMapClick} />;
+			<Map position={position} onMapClick={handleMapClick} />
 		</div>
 	);
 };
