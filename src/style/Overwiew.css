@@ -17,7 +17,7 @@
 }
 
 .Overwiew_head_slide {
-  background-color: #e6e6fa;
+  background-color: #fdfbfb;
   border-radius: 10px;
   margin: 2%;
   width: 50%;
@@ -50,7 +50,7 @@
 .Overwiew_body_case {
   display: flex;
   flex-direction: row;
-  border: 3px solid #e6e6fa;
+  border: 3px solid #fdfbfb;
   width: 50%;
   margin: 1% 2%;
   border-radius: 10px;

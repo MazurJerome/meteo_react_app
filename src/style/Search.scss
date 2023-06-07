@@ -7,7 +7,7 @@
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	border-bottom: 2px solid #fafafa;
+	border-bottom: 2px solid $ColorFond;
 }
 .date {
 	width: 40%;
@@ -19,9 +19,6 @@
 	width: 10%;
 	height: 100%;
 	display: flex;
-}
-Nav:hover {
-	background-color: $ColorPrimary;
 }
 .searchbar_alert {
 	width: 45px;

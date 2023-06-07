@@ -1,5 +1,12 @@
 @import "./Utils/variables.scss";
 
+.Prediction {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	border-top: 2px solid $ColorFond;
+}
 h3 {
 	margin: 10px;
 }
@@ -20,6 +27,7 @@ h3 {
 	width: 90px;
 	height: 90px;
 	position: absolute;
+	border: 2px solid $ColorPrimary;
 	border-radius: 50%;
 	background-color: $ColorFond;
 	display: flex;

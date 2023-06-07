@@ -5,7 +5,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  border-bottom: 2px solid #fafafa;
+  border-bottom: 2px solid #fdfbfb;
 }
 
 .date {
@@ -21,10 +21,6 @@
   display: flex;
 }
 
-Nav:hover {
-  background-color: #c8a2c8;
-}
-
 .searchbar_alert {
   width: 45px;
   height: 55px;
@@ -34,12 +30,12 @@ Nav:hover {
   width: 100%;
   padding: 5px;
   border-radius: 10px;
-  background-color: #e6e6fa;
+  background-color: #fdfbfb;
 }
 
 .alert:hover {
   width: 100%;
-  background-color: #c8a2c8;
+  background-color: #c2e1e3;
   border-radius: 10px;
 }
 
@@ -52,11 +48,11 @@ Nav:hover {
   width: 100%;
   padding: 5px;
   border-radius: 10px;
-  background-color: #e6e6fa;
+  background-color: #fdfbfb;
 }
 
 .profil:hover {
   width: 100%;
-  background-color: #c8a2c8;
+  background-color: #c2e1e3;
   border-radius: 10px;
 }/*# sourceMappingURL=Search.css.map */

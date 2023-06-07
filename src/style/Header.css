@@ -5,8 +5,7 @@ header {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  border-right: 2px solid #fafafa;
-  background-color: #e6e6fa;
+  border-right: 2px solid #fdfbfb;
 }
 
 h2 {
@@ -46,11 +45,6 @@ nav {
   justify-content: center;
 }
 
-Nav:hover {
-  background-color: #c8a2c8;
-  border-radius: 10px;
-}
-
 Nav a {
   text-decoration: none;
   padding: 13px;
@@ -59,7 +53,7 @@ Nav a {
 }
 
 Nav a:hover {
-  color: #add8e6;
+  color: #9db5c0;
 }
 
 @media (max-width: 600px) {

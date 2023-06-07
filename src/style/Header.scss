@@ -7,8 +7,7 @@ header {
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
-	border-right: 2px solid #fafafa;
-	background-color: $ColorFond;
+	border-right: 2px solid $ColorFond;
 }
 h2 {
 	font-size: 18px;
@@ -41,10 +40,6 @@ nav {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-}
-Nav:hover {
-	background-color: $ColorPrimary;
-	border-radius: 10px;
 }
 Nav a {
 	text-decoration: none;
