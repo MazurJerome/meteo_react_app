@@ -1,5 +1,6 @@
 import React from "react";
 import { GoogleMap, Marker } from "@react-google-maps/api";
+import "../style/Map.css";
 
 const Map = () => {
 	const [position, setPosition] = React.useState({

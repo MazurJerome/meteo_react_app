@@ -1,7 +1,6 @@
 import "../style/Search.css";
 import SearchBar from "./SearchBar";
 import { NavLink } from "react-router-dom";
-import icone_alert from "../images/icone_alert.svg";
 import icone_user from "../images/icone_user.svg";
 
 function Search() {
@@ -61,12 +60,7 @@ function Search() {
 			<SearchBar />
 
 			<nav className="link_icone">
-				<NavLink className="searchbar_alert" to="/" exact="true">
-					<img className="alert" src={icone_alert} alt="" />
-				</NavLink>
-			</nav>
-			<nav className="link_icone">
-				<NavLink className="searchbar_profil" to="/" exact="true">
+				<NavLink className="searchbar_profil" to="/User" exact="true">
 					<img className="profil" src={icone_user} alt="" />
 				</NavLink>
 			</nav>

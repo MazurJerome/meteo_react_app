@@ -23,7 +23,7 @@ function Header() {
 					<nav>
 						<NavLink
 							className="navbar_Saved_Location"
-							to="/Position"
+							to="/Positions"
 							exact="true"
 						>
 							Positions sauvegardées
@@ -33,12 +33,6 @@ function Header() {
 			</div>
 			<div className="Head">
 				<div className="Menu">
-					<h2>System</h2>
-					<nav>
-						<NavLink className="navbar_Setteing" to="/Settings" exact="true">
-							Setting
-						</NavLink>
-					</nav>
 					<nav>
 						<NavLink className="navbar_Logout_account" to="/Login" exact="true">
 							Logout account

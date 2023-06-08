@@ -1,0 +1,28 @@
+/* Réinitialise la dimension des images SVG dans les boutons de contrôle */
+.gm-control-active svg {
+	width: 100%;
+	height: 100%;
+	max-width: none;
+	max-height: none;
+	box-sizing: border-box;
+}
+/* Cible les boutons de contrôle Map/Satellite */
+.gm-style-mtc {
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+}
+.gm-style-mtc button {
+	width: 100%;
+	height: 100%;
+}
+
+/* Cible les divs et images à l'intérieur des boutons de contrôle Map/Satellite */
+.gm-style-mtc div,
+.gm-style-mtc img {
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+}
